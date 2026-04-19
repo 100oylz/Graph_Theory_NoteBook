@@ -1,0 +1,16 @@
+# Obsidian workspace and cache
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/graph.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude session data (if not needed in version control)
+.claudian/sessions/
+
+# Temporary files
+*.tmp
+*.swp
