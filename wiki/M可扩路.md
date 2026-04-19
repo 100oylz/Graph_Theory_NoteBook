@@ -1,5 +1,5 @@
 ---
-chapter: "第X章 XXX"
+chapter: "第5章 匹配与因子分解"
 parent: "[[第5章 匹配与因子分解]]"
 category: "概念"
 tags: [图论]
