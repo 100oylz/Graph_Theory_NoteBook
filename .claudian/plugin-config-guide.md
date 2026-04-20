@@ -123,7 +123,7 @@ index > 第1章 图的基本概念 > 图
 ### 如果面包屑不显示
 
 1. 确认插件已启用（设置 → 社区插件 → Breadcrumbs）
-2. 确认页面 frontmatter 中有 `parent: "[[第X章 XXX]]"`
+2. 确认页面 frontmatter 中有 `parent: "[[章节名]]"`
 3. 按 `Ctrl+P` → `Breadcrumbs: Rebuild Graph` 重建图关系
 4. 重启 Obsidian
 
