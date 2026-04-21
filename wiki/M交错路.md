@@ -5,8 +5,12 @@ category: 概念
 tags:
   - 图论
   - 概念
-related: []
-aliases: []
+related:
+  - "[[匹配]]"
+  - "[[M可扩路]]"
+  - "[[Berge定理]]"
+aliases:
+  - 交错路
 ---
 
 # M交错路

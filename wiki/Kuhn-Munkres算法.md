@@ -5,8 +5,13 @@ category: 算法
 tags:
   - 图论
   - 算法
-related: []
-aliases: []
+related:
+  - "[[可行顶点标号]]"
+  - "[[相等子图]]"
+  - "[[匈牙利算法]]"
+  - "[[最优匹配]]"
+aliases:
+  - KM算法
 ---
 
 # Kuhn-Munkres算法

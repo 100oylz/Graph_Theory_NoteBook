@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 6084188
       }
+    },
+    {
+      "query": "tag:#问题  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
     }
   ],
   "collapse-display": true,
@@ -46,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.2606285114279812,
+  "scale": 0.8085163724213207,
   "close": false
 }

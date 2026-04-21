@@ -6,7 +6,11 @@ tags:
   - 图论
   - 定理
 related:
+  - "[[匹配]]"
+  - "[[M可扩路]]"
+  - "[[M交错路]]"
 aliases:
+  - Berge匹配定理
 ---
 # Berge定理
 
