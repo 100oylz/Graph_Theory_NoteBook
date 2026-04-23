@@ -15,12 +15,12 @@ aliases: [遍历与环游汇总]
 ```dataview
 TABLE chapter AS "所属章节", category AS "类型", file.inlinks AS "被引用"
 FROM "wiki"
-WHERE file.name IN [
+WHERE contains([
   "Euler图", "Euler回路", "Euler迹", "Fleury算法",
   "中国邮递员问题",
   "Hamilton图", "Hamilton路", "Dirac定理", "Ore定理", "Chvátal定理",
   "度极大非Hamilton图", "旅行售货员问题"
-]
+], file.name)
 SORT chapter ASC, category ASC, file.name ASC
 ```
 
@@ -129,11 +129,11 @@ SORT chapter ASC, category ASC, file.name ASC
 ```dataview
 TABLE chapter AS "章节", category AS "类型"
 FROM "wiki"
-WHERE file.name IN [
+WHERE contains([
   "Euler图", "Euler回路", "Euler迹", "Fleury算法",
   "中国邮递员问题",
   "Hamilton图", "Hamilton路", "Dirac定理", "Ore定理", "Chvátal定理",
   "度极大非Hamilton图", "旅行售货员问题"
-]
+], file.name)
 SORT chapter ASC, category ASC, file.name ASC
 ```

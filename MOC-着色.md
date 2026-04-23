@@ -15,11 +15,11 @@ aliases: [着色理论汇总]
 ```dataview
 TABLE chapter AS "所属章节", category AS "类型", file.inlinks AS "被引用"
 FROM "wiki"
-WHERE file.name IN [
+WHERE contains([
   "图的点着色", "色数", "次大度", "Brooks定理", "五色定理",
   "图的边着色", "边色数", "偶图的边色数", "Vizing定理", "奇阶正则图的边色数",
   "色多项式", "色多项式递推公式", "理想子图", "伴随多项式与色多项式"
-]
+], file.name)
 SORT chapter ASC, category ASC, file.name ASC
 ```
 
@@ -113,8 +113,8 @@ SORT chapter ASC, category ASC, file.name ASC
 ```dataview
 TABLE chapter AS "章节", category AS "类型"
 FROM "wiki"
-WHERE chapter = "第7章 图的着色" OR file.name IN [
+WHERE chapter = "第7章 图的着色" OR contains([
   "五色定理", "平面图", "Euler公式", "偶图的边色数", "奇阶正则图的边色数"
-]
+], file.name)
 SORT chapter ASC, category ASC, file.name ASC
 ```

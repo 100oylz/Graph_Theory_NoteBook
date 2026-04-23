@@ -15,13 +15,13 @@ aliases: [树结构汇总]
 ```dataview
 TABLE chapter AS "所属章节", category AS "类型", file.inlinks AS "被引用"
 FROM "wiki"
-WHERE file.name IN [
+WHERE contains([
   "树", "森林", "树的性质", "树的中心", "树的形心",
   "生成树", "破圈法", "矩阵树定理", "Cayley公式",
   "最小生成树", "Kruskal算法", "Prim算法",
   "有向树", "根树", "有序树", "子树", "m元树",
   "最优树", "Huffman算法", "树的遍历"
-]
+], file.name)
 SORT chapter ASC, category ASC, file.name ASC
 ```
 
@@ -120,12 +120,12 @@ SORT chapter ASC, category ASC, file.name ASC
 ```dataview
 TABLE chapter AS "章节", category AS "类型"
 FROM "wiki"
-WHERE file.name IN [
+WHERE contains([
   "树", "森林", "树的性质", "树的中心", "树的形心",
   "生成树", "破圈法", "矩阵树定理", "Cayley公式",
   "最小生成树", "Kruskal算法", "Prim算法",
   "有向树", "根树", "有序树", "子树", "m元树",
   "最优树", "Huffman算法", "树的遍历"
-]
+], file.name)
 SORT chapter ASC, category ASC, file.name ASC
 ```

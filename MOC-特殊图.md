@@ -13,7 +13,7 @@ aliases: [特殊图汇总]
 ```dataview
 TABLE chapter AS "所属章节", category AS "类型", file.inlinks AS "被引用"
 FROM "wiki"
-WHERE file.name IN [
+WHERE contains([
   "偶图", "偶图判定定理", "偶图匹配存在性判定定理", "偶图的边色数",
   "konig定理", "匈牙利算法", "Kuhn-Munkres算法", "最优匹配", "点覆盖", "邻集", "相等子图", "可行顶点标号",
   "1-因子分解", "2-因子分解", "3正则图的完美匹配", "奇阶正则图的边色数",
@@ -25,7 +25,7 @@ WHERE file.name IN [
   "Euler图", "Euler回路", "Euler迹", "Fleury算法", "中国邮递员问题",
   "Hamilton图", "Hamilton路", "Dirac定理", "Ore定理", "Chvátal定理", "度极大非Hamilton图", "旅行售货员问题",
   "有向图", "基础图", "定向图", "出度与入度", "有向图的连通性", "强连通分支", "单向连通分支", "弱连通分支"
-]
+], file.name)
 SORT chapter ASC, category ASC, file.name ASC
 ```
 

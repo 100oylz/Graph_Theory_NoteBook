@@ -15,11 +15,11 @@ aliases: [连通性汇总]
 ```dataview
 TABLE chapter AS "所属章节", category AS "类型", file.inlinks AS "被引用"
 FROM "wiki"
-WHERE file.name IN [
-  "图的连通性", "路", "距离与直径", "割边", "割点", "块",
+WHERE contains([
+  "图的连通性", "路", "割边", "割点", "块",
   "顶点割", "顶点连通度", "边割", "边连通度", "连通度",
   "k-连通图", "k-边连通图", "Menger定理", "Harary图", "连通度的应用"
-]
+], file.name)
 SORT chapter ASC, category ASC, file.name ASC
 ```
 
@@ -107,10 +107,9 @@ SORT chapter ASC, category ASC, file.name ASC
 ```dataview
 TABLE chapter AS "章节", category AS "类型"
 FROM "wiki"
-WHERE chapter IN ["第1章 图的基本概念", "第3章 图的连通度"] AND (
-  file.name IN ["图的连通性", "路", "距离与直径", "割边", "割点", "块",
+WHERE contains(["第1章 图的基本概念", "第3章 图的连通度"], chapter) AND (contains(["图的连通性", "路", "割边", "割点", "块",
     "顶点割", "顶点连通度", "边割", "边连通度", "连通度",
-    "k-连通图", "k-边连通图", "Menger定理", "Harary图", "连通度的应用"]
+    "k-连通图", "k-边连通图", "Menger定理", "Harary图", "连通度的应用"], file.name)
 )
 SORT chapter ASC, category ASC, file.name ASC
 ```
