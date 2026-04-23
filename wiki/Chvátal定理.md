@@ -11,10 +11,7 @@ related:
   - "[[Ore定理]]"
   - "[[Hamilton路]]"
 aliases:
-  - Chvátal's theorem
----
-
-# Chvátal定理
+  - Chvátal's theorem# Chvátal定理
 
 > **定理 (Chvátal, 1972)**：设简单图 $G$ 的度序列是 $(d_1, d_2, \ldots, d_n)$，其中 $d_1 \leq d_2 \leq \ldots \leq d_n$ 且 $n\geq 3$。若对任意的 $k < n/2$，或有 $d_k > k$，或有 $d_{n-k} \geq n-k$，则 $G$ 是 Hamilton 图。
 

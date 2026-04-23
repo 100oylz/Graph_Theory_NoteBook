@@ -10,9 +10,7 @@ related:
   - "[[匹配]]"
   - "[[3正则图的完美匹配]]"
 aliases:
-  - Tutte匹配定理
----
-# Tutte定理
+  - Tutte匹配定理# Tutte定理
 
 > **定理陈述**：偶数阶图G有完美匹配当且仅当$o(G-S)\le |S|$对所有$S\subset V$成立
 

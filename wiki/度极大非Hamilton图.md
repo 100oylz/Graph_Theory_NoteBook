@@ -10,10 +10,7 @@ related:
   - "[[Chvátal定理]]"
   - "[[Dirac定理]]"
 aliases:
-  - 度极大非H图
----
-
-# 度极大非Hamilton图
+  - 度极大非H图# 度极大非Hamilton图
 
 > **定义**：图 $G$ 称为**度极大非 H 图**，若它的度不弱于其它非 H 图。
 

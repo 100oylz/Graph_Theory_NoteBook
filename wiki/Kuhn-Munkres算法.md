@@ -11,10 +11,7 @@ related:
   - "[[匈牙利算法]]"
   - "[[最优匹配]]"
 aliases:
-  - KM算法
----
-
-# Kuhn-Munkres算法
+  - KM算法# Kuhn-Munkres算法
 
 > **问题背景**：在边赋权完全偶图Kn, n中寻找一个具有最大权值的完美匹配
 

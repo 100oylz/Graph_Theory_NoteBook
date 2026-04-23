@@ -8,10 +8,7 @@ tags:
 related:
   - "[[极图]]"
 aliases:
-  - Turán定理
----
-
-# Turán定理
+  - Turán定理# Turán定理
 
 ## 度弱于关系
 

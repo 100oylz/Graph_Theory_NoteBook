@@ -10,10 +10,7 @@ related:
   - "[[Chvátal定理]]"
 aliases:
   - H路
-  - 哈密尔顿路
----
-
-# Hamilton路
+  - 哈密尔顿路# Hamilton路
 
 > **定义**：经过图中每个点的**路**称为 **Hamilton 路**（Hamilton path），简称 **H 路**。
 

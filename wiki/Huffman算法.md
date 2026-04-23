@@ -10,10 +10,7 @@ related:
   - "[[m元树]]"
 aliases:
   - Huffman coding
-  - 霍夫曼算法
----
-
-# Huffman算法
+  - 霍夫曼算法# Huffman算法
 
 > **问题背景**：给定 $t$ 个权值 $w_1, w_2, \ldots, w_t$，构造一棵带权二元树，使其带权路径长度 $W(T)$ 最小。
 

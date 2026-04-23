@@ -11,10 +11,7 @@ related:
   - "[[Fleury算法]]"
 aliases:
   - 欧拉迹
-  - Euler trail
----
-
-# Euler迹
+  - Euler trail# Euler迹
 
 > **定义**：经过图 $G$ 的每条边的**迹**称为 **Euler 迹**（Euler trail）。若该迹不是闭迹，则称为**非封闭的 Euler 迹**。
 

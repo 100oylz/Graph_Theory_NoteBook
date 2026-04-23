@@ -11,10 +11,7 @@ related:
   - "[[瓦格纳定理]]"
   - "[[平面图]]"
 aliases:
-  - Kuratowski判定定理
----
-
-# Kuratowski定理
+  - Kuratowski判定定理# Kuratowski定理
 
 > **定理陈述**：图G是可平面的当且仅当G不含与$K_5$或$K_{3,3}$同胚的子图
 

@@ -8,10 +8,7 @@ tags:
 related:
   - "[[最小生成树]]"
   - "[[Kruskal算法]]"
-aliases:
----
-
-# Prim算法
+aliases:# Prim算法
 
 > **算法描述**：Prim算法是一种基于贪心策略的最小生成树算法，从一个顶点出发，逐步扩展生成树。
 

@@ -13,10 +13,7 @@ related:
   - "[[割边]]"
 aliases:
   - k-边连通
-  - k-edge-connected graph
----
-
-# k-边连通图
+  - k-edge-connected graph# k-边连通图
 
 > **定义**：若一个图的边连通度至少为 $k$，则称该图是 **$k$ 边连通的**（$k$-edge-connected），或称该图为 **$k$ 边连通图**。
 

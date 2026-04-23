@@ -13,10 +13,7 @@ related:
   - "[[块]]"
 aliases:
   - k-连通
-  - k-connected graph
----
-
-# k-连通图
+  - k-connected graph# k-连通图
 
 > **定义**：若一个图的顶点连通度至少为 $k$，则称该图是 **$k$ 连通的**（$k$-connected），或称该图为 **$k$ 连通图**。
 

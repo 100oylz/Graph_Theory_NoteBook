@@ -11,10 +11,7 @@ related:
   - "[[凸多面体与平面图]]"
   - "[[Platonic定理]]"
 aliases:
-  - Euler定理
----
-
-# Euler公式
+  - Euler定理# Euler公式
 
 > **定理陈述**：设G是具有n个点，m条边，$\phi$个面的连通平面图，则有$n-m+\phi=2$
 
