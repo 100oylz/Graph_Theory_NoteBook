@@ -1,0 +1,43 @@
+/* 阅读视图自适应宽度，减少两侧空白 */
+
+/* 覆盖 Obsidian 默认行宽变量 */
+body {
+  --file-line-width: 100%;
+  --line-width: 100%;
+}
+
+/* 阅读视图内容区占满宽度 */
+.markdown-preview-view .markdown-preview-sizer,
+.markdown-rendered .markdown-preview-sizer {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 3em !important;
+  padding-right: 3em !important;
+}
+
+/* 覆盖可读行宽模式 */
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* 编辑器模式也自适应 */
+.markdown-source-view.is-readable-line-width .cm-sizer {
+  max-width: 100% !important;
+}
+
+.markdown-source-view .cm-content {
+  max-width: 100% !important;
+}
+
+/* 嵌入内容也自适应 */
+.markdown-embed-content,
+.markdown-embed .markdown-preview-sizer {
+  max-width: 100% !important;
+}
+
+/* 表格占满 */
+.markdown-preview-view table,
+.markdown-rendered table {
+  width: 100%;
+}
