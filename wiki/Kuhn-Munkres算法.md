@@ -1,7 +1,7 @@
 ---
-chapter: 第5章 匹配与因子分解
+chapter: "第5章 匹配与因子分解"
 parent: "[[第5章 匹配与因子分解]]"
-category: 算法
+category: "算法"
 tags:
   - 图论
   - 算法
