@@ -12,7 +12,9 @@ related:
   - "[[奇阶正则图的边色数]]"
 aliases:
   - 维津定理
-  - Vizing's Theorem# Vizing定理
+  - Vizing's Theorem
+---
+# Vizing定理
 
 > **定理陈述**：设 $G$ 是简单图，则
 > $$\Delta(G) \leq \chi'(G) \leq \Delta(G) + 1$$

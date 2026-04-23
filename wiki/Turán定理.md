@@ -1,5 +1,5 @@
 ---
-chapter: 第1章 图的基本概念
+chapter: "第1章 图的基本概念"
 parent: "[[第1章 图的基本概念]]"
 category: "定理"
 tags:
@@ -8,7 +8,9 @@ tags:
 related:
   - "[[极图]]"
 aliases:
-  - Turán定理# Turán定理
+  - Turán定理
+---
+# Turán定理
 
 ## 度弱于关系
 

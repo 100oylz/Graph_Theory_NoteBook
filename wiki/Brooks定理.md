@@ -10,7 +10,9 @@ related:
   - "[[图的点着色]]"
   - "[[次大度]]"
 aliases:
-  - Brooks' Theorem# Brooks定理
+  - Brooks' Theorem
+---
+# Brooks定理
 
 > **定理陈述**（Brooks, 1941）：设 $G$ 是简单连通图。假定 $G$ 既不是完全图又不是奇圈，则
 > $$\chi(G) \leq \Delta(G)$$

@@ -11,7 +11,9 @@ related:
   - "[[Euler迹]]"
   - "[[中国邮递员问题]]"
 aliases:
-  - Fleury's algorithm# Fleury算法
+  - Fleury's algorithm
+---
+# Fleury算法
 
 > **算法思想**：从任一点出发按以下方法来描画一条边不重复的迹，使在每一步中未描画的子图的割边仅当没有别的边可选择时才被描画。
 

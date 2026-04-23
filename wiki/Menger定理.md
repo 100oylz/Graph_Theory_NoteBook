@@ -12,7 +12,9 @@ related:
   - "[[Harary图]]"
 aliases:
   - Menger定理
-  - Whitney定理# Menger定理
+  - Whitney定理
+---
+# Menger定理
 
 Menger 定理是图的连通性问题的核心定理之一，它揭示了图的连通度与不同顶点对间的不相交路的数目之间的关系。
 

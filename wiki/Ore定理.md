@@ -10,7 +10,9 @@ related:
   - "[[Dirac定理]]"
   - "[[Chvátal定理]]"
 aliases:
-  - Ore's theorem# Ore定理
+  - Ore's theorem
+---
+# Ore定理
 
 > **定理 (Ore, 1960)**：对于 $n$ 阶 $(n\geq 3)$ 简单图 $G$，如果 $G$ 中任意两个不相邻顶点 $u$ 与 $v$ 满足：
 > $$d(u) + d(v) \geq n$$

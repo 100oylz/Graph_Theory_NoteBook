@@ -10,7 +10,9 @@ related:
   - "[[Ore定理]]"
   - "[[Chvátal定理]]"
 aliases:
-  - Dirac's theorem# Dirac定理
+  - Dirac's theorem
+---
+# Dirac定理
 
 > **定理 (Dirac, 1952)**：对于 $n$ 阶 $(n\geq 3)$ 简单图 $G$，如果
 > $$\delta(G) \geq \frac{n}{2}$$

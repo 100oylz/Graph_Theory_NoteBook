@@ -9,7 +9,9 @@ related:
   - "[[生成树]]"
   - "[[矩阵树定理]]"
 aliases:
-  - Cayley定理# Cayley公式
+  - Cayley定理
+---
+# Cayley公式
 
 > **定理（Cayley）**：$n$ 阶完全图 $K_n$ 的生成树个数为
 > $$

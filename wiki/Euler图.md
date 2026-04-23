@@ -12,7 +12,9 @@ related:
   - "[[中国邮递员问题]]"
 aliases:
   - E图
-  - 欧拉图# Euler图
+  - 欧拉图
+---
+# Euler图
 
 > **定义**：经过图 $G$ 的每条边的**闭迹**被称为 **Euler 闭迹**，存在 Euler 闭迹的图称为 **Euler 图**（Eulerian graph），简称 **E 图**。Euler 闭迹又称为 **Euler 回路**。
 

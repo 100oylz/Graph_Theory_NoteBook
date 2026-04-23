@@ -10,7 +10,9 @@ related:
   - "[[M可扩路]]"
   - "[[M交错路]]"
 aliases:
-  - Berge匹配定理# Berge定理
+  - Berge匹配定理
+---
+# Berge定理
 
 > **定理陈述**：图G的匹配M是最大匹配当且仅当G不含M可扩路
 

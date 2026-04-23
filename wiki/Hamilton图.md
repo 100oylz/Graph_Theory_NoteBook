@@ -14,7 +14,9 @@ related:
   - "[[旅行售货员问题]]"
 aliases:
   - H图
-  - 哈密尔顿图# Hamilton图
+  - 哈密尔顿图
+---
+# Hamilton图
 
 > **定义**：经过图中每个点的**圈**称为 **Hamilton 圈**（Hamilton cycle），简称 **H 圈**。存在 Hamilton 圈的图称为 **Hamilton 图**（Hamilton graph），简称 **H 图**。
 

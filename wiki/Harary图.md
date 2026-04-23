@@ -11,7 +11,9 @@ related:
   - "[[Menger定理]]"
   - "[[连通度的应用]]"
 aliases:
-  - Harary graph# Harary图
+  - Harary graph
+---
+# Harary图
 
 Harary 图 $H_{k,n}$ 是一类具有最小边数的 $n$ 阶 $k$ 连通图，在通讯网络设计中具有重要应用。
 

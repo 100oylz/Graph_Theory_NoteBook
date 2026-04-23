@@ -11,7 +11,9 @@ related:
   - "[[Fleury算法]]"
 aliases:
   - Euler闭迹
-  - 欧拉回路# Euler回路
+  - 欧拉回路
+---
+# Euler回路
 
 > **定义**：经过图 $G$ 的每条边的**闭迹**称为 **Euler 闭迹**，又称为 **Euler 回路**（Euler circuit）。存在 Euler 回路的图称为 [[Euler图]]。
 

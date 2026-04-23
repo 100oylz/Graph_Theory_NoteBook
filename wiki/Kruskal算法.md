@@ -8,7 +8,9 @@ tags:
 related:
   - "[[最小生成树]]"
   - "[[Prim算法]]"
-aliases:# Kruskal算法
+aliases: []
+---
+# Kruskal算法
 
 > **算法描述**：Kruskal算法是一种基于贪心策略的最小生成树算法，通过按权值从小到大选取边并避免成环来构造最小生成树。
 
