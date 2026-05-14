@@ -75,12 +75,12 @@ SORT chapter ASC, category ASC, file.name ASC
 
 ### 判定条件
 
-| 条件 | 内容 | 类型 |
-|------|------|------|
-| 必要条件 | $\forall S\neq\varnothing, \omega(G-S)\leq|S|$ | 必要非充分 |
-| Dirac | $\delta(G)\geq n/2$ | 充分 |
-| Ore | 不相邻顶点 $d(u)+d(v)\geq n$ | 充分 |
-| Chvátal | 度序列闭包条件 | 充分 |
+| 条件      | 内容                                                | 类型    |
+| ------- | ------------------------------------------------- | ----- |
+| 必要条件    | $\forall S\neq\varnothing, \omega(G-S)\leq\lvert S\rvert$ | 必要非充分 |
+| Dirac   | $\delta(G)\geq n/2$                               | 充分    |
+| Ore     | 不相邻顶点 $d(u)+d(v)\geq n$                           | 充分    |
+| Chvátal | 度序列闭包条件                                           | 充分    |
 
 ## 优化问题
 

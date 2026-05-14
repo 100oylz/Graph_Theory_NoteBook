@@ -58,7 +58,7 @@ SORT chapter ASC, file.name ASC
 |------|------|-----------|---------|
 | Euler图等价定理 | 连通图是欧拉图 ⟺ 每个点度数为偶数 ⟺ 边集可划分为边不重的圈 | Euler图、正则图 | ★★★ |
 | 非封闭Euler迹判定 | 连通图有非封闭 Euler 迹 ⟺ 恰有两个奇度顶点 | Euler图 | ★★★ |
-| Hamilton必要条件 | $G$ 是 H 图 ⟹ $\forall S\neq\varnothing, \omega(G-S)\leq|S|$ | Hamilton图 | ★★★ |
+| Hamilton必要条件 | $G$ 是 H 图 ⟹ $\forall S\neq\varnothing, \omega(G-S)\leq\lvert S\rvert$ | Hamilton图 | ★★★ |
 | [[Dirac定理]] | $\delta(G)\geq n/2$ ⟹ $G$ 是 H 图（1952） | Hamilton图、正则图 | ★★★ |
 | [[Ore定理]] | 不相邻顶点 $d(u)+d(v)\geq n$ ⟹ $G$ 是 H 图（1960） | Hamilton图 | ★★★ |
 | [[Chvátal定理]] | 基于度序列的闭包条件（1972） | Hamilton图 | ★★★ |
@@ -70,7 +70,7 @@ SORT chapter ASC, file.name ASC
 | 定理 | 内容 | 特殊图关联 | 考试重点 |
 |------|------|-----------|---------|
 | [[Berge定理]] | $M$ 是最大匹配 ⟺ 无 $M$ 可扩路 | 一般图 | ★★★ |
-| [[Tutte定理]] | 完美匹配 ⟺ $\forall S, o(G-S) \leq |S|$ | 一般图 | ★★★ |
+| [[Tutte定理]] | 完美匹配 ⟺ $\forall S, o(G-S) \leq \lvert S\rvert$ | 一般图 | ★★★ |
 | Petersen定理 | 3正则图无割边 ⟹ 有完美匹配 | 正则图 | ★★★ |
 | [[偶图匹配存在性判定定理]] | Hall 定理 | 偶图 | ★★★ |
 | [[konig定理]] | 偶图中：最大匹配 = 最小点覆盖 | 偶图 | ★★★ |

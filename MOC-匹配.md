@@ -52,7 +52,7 @@ SORT category ASC, file.name ASC
 
 | 概念 | 说明 | 考试重点 |
 |------|------|---------|
-| [[Tutte定理]] | 完美匹配的充要条件：$o(G-S) \leq |S|$ | ★★★ |
+| [[Tutte定理]] | 完美匹配的充要条件：$o(G-S) \leq \lvert S\rvert$ | ★★★ |
 | [[3正则图的完美匹配]] | 3正则图无割边 ⟹ 有完美匹配 | ★★★ Petersen |
 | [[奇偶分支]] | 奇阶/偶阶连通分支 | ★★ |
 
@@ -89,9 +89,9 @@ SORT category ASC, file.name ASC
 | 定理 | 内容 | 适用对象 |
 |------|------|---------|
 | Berge定理 | $M$ 最大 ⟺ 无 $M$ 可扩路 | 一般图 |
-| Tutte定理 | $G$ 有完美匹配 ⟺ $\forall S, o(G-S) \leq |S|$ | 一般图 |
+| Tutte定理 | $G$ 有完美匹配 ⟺ $\forall S, o(G-S) \leq \lvert S\rvert$ | 一般图 |
 | Petersen定理 | 3正则图无割边 ⟹ 有完美匹配 | 3正则图 |
-| Hall定理 | 偶图有覆盖 $X$ 的匹配 ⟺ $\forall S\subseteq X, |N(S)|\geq|S|$ | 偶图 |
+| Hall定理 | 偶图有覆盖 $X$ 的匹配 ⟺ $\forall S\subseteq X, \lvert N(S)\rvert\geq\lvert S\rvert$ | 偶图 |
 | König定理 | 偶图中：最大匹配 = 最小点覆盖 | 偶图 |
 
 ## 与特殊图的关联
